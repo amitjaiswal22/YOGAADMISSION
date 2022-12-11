@@ -1,9 +1,47 @@
+This project was about Yoga Admission form  which accept the user input data and validate their data and store data in Database.
+#Technolgy  Used in this project
+ 1.React
+ 2.CSS
+ 3.Firebase Database
+ 4.Netlify to  hosst the website
 # Getting Started with Create React App
+   1.npx create-react-app 
+   2.npm firebase
+   
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Summary
+ 1.In this project first i created form in react .
+ 2.Then implement state variables to store user input by using useState() ,useEffect()hooks.
+ 3.submitForm() and isDataCorrect() give warningso use another hook useRef().
+ 4.then we buid file for validation of data (Validation.jsx)
+ 5.then write all the logic which are required by problem.
+ 6.if all the data is correct then we render the SignupSuccessfully component.
+ 7.then implement firebase database to store the data.
+ 8. then create userdata collection in database.
+ 9. I store in this order:--
+       address:""
+       age:""
+       email:""
+       month:""
+       name:""
+       timing:""
+10.Deploy the app on Netlify Platform. 
 
-## Available Scripts
-
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 In the project directory, you can run:
 
 ### `npm start`
