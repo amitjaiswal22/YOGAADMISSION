@@ -4,7 +4,7 @@
 }
 
 .container {
-  background: linear-gradient(135deg, #a95691, #91747d);
+ background-color: #a95691;
   width: 100%;
   min-height: 100vh;
   display: flex;
@@ -54,7 +54,7 @@
 }
 
 .month {
-  background: linear-gradient(135deg, white, white);
+  background:  white;
   height: 32px;
   font-size: 20px;
   outline: none;
@@ -70,6 +70,7 @@
 
 .input {
   height: 32px;
+  background:white;
   font-size: 20px;
   outline: none;
   width: 100%;
@@ -93,7 +94,7 @@
   border-radius: 25px;
   color: rgb(6, 7, 67);
   padding: 10px 60px;
-  background: linear-gradient(to roght, #ab1dcf, #f80759);
+  background: #ab1dcf, #f80759;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
   margin: auto;
