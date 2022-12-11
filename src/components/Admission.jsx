@@ -101,7 +101,7 @@ const Admission = ({ submitForm }) => {
   };
   const temp=useRef();
 const fun=()=>{
-  if (Object.keys(errors).lengths === 0 && dataIsCorrect===true) {
+  if (dataIsCorrect===true) {
     submitForm(true);
   }
 
