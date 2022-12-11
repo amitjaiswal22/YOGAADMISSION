@@ -25,7 +25,9 @@ This project was about Yoga Admission form  which accept the user input data and
        month:""
        name:""
        timing:""
-10.Deploy the app on Netlify Platform. 
+10.Deploy the app on Netlify Platform. (https://sweet-narwhal-e99327.netlify.app/)
+
+ 
 
  
  
